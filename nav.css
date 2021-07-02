@@ -1,0 +1,24 @@
+.nav {
+    background-color: #C45262;
+    display: block;
+    border-style: solid;
+    border-color: #660F1F;
+    border-width: 5px;
+    color:#FFFBDF;
+    list-style: none;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin-right: 1050px;
+    margin-left: 75px;
+    margin-top: 30px;}
+.nav>ul{
+display:inline-block;
+}
+.nav>ul>a{
+text-decoration: none;
+color:#FFFBDF;
+}
+.nav>ul>a:hover{
+color:#660F1F;
+}
