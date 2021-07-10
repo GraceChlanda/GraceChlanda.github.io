@@ -1,0 +1,153 @@
+p {
+  font-style: Verdana;
+}
+p {
+  color: #175d66;
+}
+body {
+  background-color: #fffbdf;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+h1 {
+  font-family: Verdana;
+  color: #fffbdf;
+  text-align: center;
+}
+h2 {
+  font-family: Verdana;
+  color: #660f1f;
+  text-align: center;
+}
+li {
+  font-family: Verdana;
+  color: #175d66;
+  text-align: left;
+  padding-right: 20px;
+}
+/*page title*/
+.multi-border {
+  width: 250px;
+  height: 180%;
+  background-color: #175d66;
+  margin-right: 1050px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: #68bbc4;
+  border-width: 5px;
+  position: relative;
+}
+.multi-border::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #175d66;
+  border-width: 10px;
+  top: -15px;
+  bottom: -15px;
+  left: -15px;
+  right: -15px;
+}
+h3 {
+  color: #fffbdf;
+  background-color: #175d66;
+  font-style: Verdana;
+}
+blockquote {
+  color: #660f1f;
+}
+footer {
+  color: #660f1f;
+}
+.resources li {
+  padding-top: 20px;
+}
+/*index content floats*/
+#container {
+  width: 960px;
+  margin: 0px auto;
+}
+#left-column {
+  width: 260px;
+  float: left;
+}
+#right-column {
+  width: 700px;
+  float: left;
+}
+/*query*/
+@media screen and (max-width: 959px) {
+  #container {
+    width: 100%;
+  }
+  #left-column {
+    width: 30%;
+  }
+  #right-column {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #left-column {
+    width: 100%;
+  }
+  #right-column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  #container {
+    width: 320px;
+  }
+  .multi-border {
+    margin-left: 30px;
+  }
+  p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/*grid*/
+.grid {
+  display: grid;
+  grid-template-columns: 5% 43% 4% 21% 22% 5%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.title-box {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+}
+.paragraph-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+}
+.paragraph {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+}
+.video {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+}
+.photo-one {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+}
+.photo-two {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+}
+.contact {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 10;
+}
