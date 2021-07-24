@@ -1,0 +1,126 @@
+<!-- 7/11 I got rid of the container, aside, and section in favor of a grid -->
+<!-- 7/22 Fixed All Validation Errors -->
+<!-- 7/24 updated footer (rearranged zoom divs, added resume, changed container size, changed icons to a local path -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://img.icons8.com/small/16/000000/dog-footprint.png"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/mfn3pey.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler hides-checkbox" />
+        <div class="hamburger">
+          <div>
+            <!--This Empty Div makes the box that the hamburger icon resides in -->
+          </div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li class="dropdown">
+                  <a href="learn.html">Learn</a>
+                  <ul class="dropdown-content">
+                    <li><a href="learn.html#SD-Laws">SD Laws</a></li>
+                    <li>
+                      <a href="learn.html#principles">Training Principles</a>
+                    </li>
+                    <li>
+                      <a href="learn.html#foundations">Foundation Training</a>
+                    </li>
+                    <li><a href="learn.html#tasks">Task Training</a></li>
+                  </ul>
+                </li>
+                <li><a href="reflection.html">Resources</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="grid">
+      <div class="title-box">
+        <header>
+          <div class="multi-border">
+            <h1>Owner Training Service Dogs</h1>
+          </div>
+        </header>
+      </div>
+      <div class="Welcome-Scentence">
+        <h2>
+            Hello everyone! Hopefully this website helps you navigate your journey
+            in owner training your service dog!
+        </h2>
+      </div>
+      <div class="Index-SD-Pros-List">
+        <h3>Pros of Training Your Own Service Dog</h3>
+        <ul>
+          <li>You can customize what your dog does for you.</li>
+          <li>There may be a shorter wait time.</li>
+          <li>It may be less expensive.</li>
+          <li>You can choose a specific dog breed.</li>
+          <li>You can teach your dog to mitigate more than one disability.</li>
+          <li>
+            You retain all ownership rights for your dog after they retire.
+          </li>
+          <li>You will have a stronger workign relationship with your dog.</li>
+        </ul>
+      </div>
+      <div class="Index-Paragraph">
+        <div>
+          <h3>Why I Made This Site</h3>
+        </div>
+        <p>
+          When I tried to look information about if I qualified for a service
+          dog or not, or even how to go about getting one, I was met with a
+          bunch of scam websites. These websites asked for money to register
+          one’s pet as a service dog. However, there are no legal Service Dog
+          Registries in the United States. Additionally, these websites mislead
+          people about the legally covered definition of both “disability” and
+          “service dog”. These kinds of websites keep people from getting the
+          help they need. In contrast, I want to give information to people with
+          disabilities who wish to train their own service dogs. Doing this can
+          have many benefits including, lowering the workload of official
+          programs, creating a stronger working relationship with one’s dog,
+          personalizing trained tasks, and sometimes saving money. This website
+          covers the basics for service dog laws, dog training concepts,
+          foundational dog training, and task training. Furthermore, there are
+          resources placed throughout this site for more information.
+        </p>
+      </div>
+      <div class="Index-Contact">
+        <footer>
+          <div class="zoom">
+            <img
+            src="./images/icons8-mail-24.png"
+            alt="email icon"
+            />
+          </div><br>
+          Author Name: Grace Chlanda <br><br>
+          <div class="zoom" id="resume"><a href="Resume.pdf"><strong>My R&#233;sum&#233;</strong></a></div><br>
+          Author Email: gecvw5@umsystem.edu <br>
+          Author Phone: (111)222-33333<br><br>
+          <div class="zoom">
+            <img
+              src="./images/icons8-phone-30.png"
+              alt="phone icon"/>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
